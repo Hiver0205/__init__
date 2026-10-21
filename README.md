@@ -196,7 +196,7 @@ flowchart LR
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/business-dark.png" />
-  <img src="assets/business-light.png" width="860" alt="1단계 B2C 월 2,900원 구독, 2단계 B2B 보정·카메라 앱 SDK 연간 라이선스, 3단계 B2B 데이팅·커뮤니티 API 1,000장당 과금" />
+  <img src="assets/business-light.png" width="860" alt="1단계 B2C 월 2,900원 구독, 2단계 B2B 보정·카메라 앱 SDK 연간 라이선스, 3단계 B2B 플랫폼·소속사 API 1,000장당 과금" />
 </picture>
 
 **왜 B2C부터?** 실제 사용자가 쓰는 기술이라는 증거가 B2B 영업의 근거가 되고, 다양한 사진·필터 조합으로 모델을 고도화할 수 있으며, "우리 학교도 해주세요" 같은 기관 수요로 이어집니다.
@@ -206,6 +206,7 @@ flowchart LR
 - **핵심 사용층이 곧 피해층** — 딥페이크 피해자의 92.6%가 10·20대이고, 이들은 보정 앱의 핵심 사용층입니다.
 - **보정은 이미 일상** — 10~17세 여학생의 77%가 사진을 올리기 전 외모를 바꾸거나 가린다고 답했습니다 (Dove Self-Esteem Project, 2021).
 - **성장하는 인접 시장** — 딥페이크 탐지 시장은 2023년 2.1억 달러에서 2031년 34.6억 달러로 연 41.7% 성장이 예상됩니다 (The Insight Partners).
+- **소속사의 사전 대응 수요** — 2024년 8월 JYP(트와이스) 등 여러 소속사가 아티스트 딥페이크에 법적 대응을 발표했습니다. 지금은 퍼진 뒤의 사후 대응뿐이라, 공식 사진을 배포하기 전에 보호하는 API에 대한 수요가 있습니다.
 - **자연 확산** — 보호된 사진에 선택형 '보호됨' 스탬프를 달아, 본 사람이 앱으로 유입되도록 합니다.
 
 <br/>
@@ -242,10 +243,12 @@ flowchart LR
 > 파이썬의 `__init__`은 무언가가 처음 만들어질 때 가장 먼저 실행되어 기본값을 정합니다.<br/>
 > 저희는 안전이 처음부터 기본값인 세상을 만듭니다. **Safe by default.**
 
-| | 이름 | 역할 |
-|:---:|:---|:---|
-| 🧭 | **김혜현** HyeHyeon Kim | PM · CM · QA |
-| 🛠️ | **정가영** GaYeong Jeong | PL · ENG · QA |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/team-dark.png" />
+  <img src="assets/team-light.png" width="860" alt="김혜현 HyeHyeon Kim, PM · CM · QA / 정가영 GaYeong Jeong, PL · ENG · QA" />
+</picture>
+
+<p align="center"><b>김혜현</b> HyeHyeon Kim &nbsp;·&nbsp; <b>정가영</b> GaYeong Jeong</p>
 
 <br/>
 
@@ -254,6 +257,7 @@ flowchart LR
 - ARY News (Reuters 기사), [Taylor Swift searches blocked on X after fake explicit images spread](https://arynews.tv/taylor-swift-searches-blocked-on-x-after-explicit-images-spread) (2024.1, 조회 수는 New York Times 보도 인용) · Bloomberg Law, [Taylor Swift Search Restored on X After Deepfake Porn Deluge](https://news.bloomberglaw.com/ip-law/taylor-swift-search-restored-on-x-after-deepfake-porn-deluge)
 - MBC, ["우리 학교도 능욕당했다" 중고교 150개 명단 '발칵'](https://imnews.imbc.com/news/2024/society/article/6630519_36438.html) (2024.8.26, 명단 속 피해 사실은 보도 시점 기준 수사로 확인되지 않음)
 - 뉴스타파, [딥페이크의 공범들② 학교 딥페이크, 가해자가 돌아왔다](https://newstapa.org/article/74aqg) (2025.3.27, 교육부·경찰청 집계 인용)
+- 서울신문, ['딥페이크' 트와이스도 당했다…JYP "불법 행위, 강력 대응"](https://www.seoul.co.kr/news/society/2024/08/31/20240831500007) (2024.8.31)
 - 여성가족부 · 한국여성인권진흥원, [2024 디지털성범죄 피해자 지원 보고서](https://www.khan.co.kr/article/202504102017005) 관련 보도 (2025.4)
 - 성평등가족부, [지난해 디지털성범죄 피해자 1만 637명에게 35만여 건 원스톱 지원](https://www.mogef.go.kr/nw/enw/nw_enw_s001d.do?mid=mda700&bbtSn=713441) (2026.4), [관련 보도](https://m.sedaily.com/amparticle/20033388)
 - 뉴시스, ['딥페이크 성범죄' 1438명 검거…피의자 62%가 10대](https://www.newsis.com/view/NISX20251114_0003403877) (2025.11)
