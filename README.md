@@ -21,6 +21,10 @@
 </p>
 
 <p>
+<a href="https://faccine.netlify.app"><img src="https://img.shields.io/badge/%EB%B0%94%EB%A1%9C%20%EC%8D%A8%EB%B3%B4%EA%B8%B0-faccine.netlify.app-4f46e5?style=for-the-badge" alt="바로 써보기: faccine.netlify.app" /></a>
+</p>
+
+<p>
 <a href="#problem">문제 정의</a> ·
 <a href="#idea">차별성</a> ·
 <a href="#build">구현 · 비즈니스 모델</a> ·
