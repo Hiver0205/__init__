@@ -44,6 +44,13 @@
   <img src="assets/case-light.png" width="860" alt="실제 사례: 2024년 1월 테일러 스위프트 딥페이크 이미지가 X에서 4,700만 회 조회" />
 </picture>
 
+국내에서는 10대가 가해자이자 피해자입니다. 같은 반 친구의 셀카가 그대로 범죄의 재료가 되었습니다.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/teen-dark.png" />
+  <img src="assets/teen-light.png" width="860" alt="국내 사례: 2024년 학교 딥페이크 사태, 학교 딥페이크 피해자 948명, 검거 피의자 573명 중 463명이 10대" />
+</picture>
+
 ### 숫자로 보는 현황
 
 <picture>
@@ -63,6 +70,8 @@
 | 2025년 합성·편집 피해 | 1,616건 (전년 대비 16.8% 증가, 91.2%가 10·20대) | 성평등가족부, 2025 디지털성범죄 피해자 지원 보고서 |
 | 반복 유포로 지원이 계속되는 피해자 | 전년 대비 26.3% 증가 | 〃 |
 | 딥페이크 성범죄 검거 피의자 | 10명 중 6명(62%)이 10대 | 경찰청 집계 (2025.11 보도) |
+| 2024년 딥페이크 성범죄 검거 피의자 | 573명 중 463명(80% 이상)이 10대, 5명 중 1명은 촉법소년으로 훈방 | 경찰청 집계 (뉴스타파 2025.3 보도) |
+| 학교 딥페이크 피해 (2024년 1~11월) | 신고 561건, 피해자 948명 | 교육부 집계 (뉴스타파 2025.3 보도) |
 | 디지털성범죄 영상물 삭제 지원 | 2018년 2만 8천여 건 → 2024년 30만 건 이상 | 여성가족부 발표 보도 |
 
 </details>
@@ -243,6 +252,8 @@ flowchart LR
 ## References
 
 - ARY News (Reuters 기사), [Taylor Swift searches blocked on X after fake explicit images spread](https://arynews.tv/taylor-swift-searches-blocked-on-x-after-explicit-images-spread) (2024.1, 조회 수는 New York Times 보도 인용) · Bloomberg Law, [Taylor Swift Search Restored on X After Deepfake Porn Deluge](https://news.bloomberglaw.com/ip-law/taylor-swift-search-restored-on-x-after-deepfake-porn-deluge)
+- MBC, ["우리 학교도 능욕당했다" 중고교 150개 명단 '발칵'](https://imnews.imbc.com/news/2024/society/article/6630519_36438.html) (2024.8.26, 명단 속 피해 사실은 보도 시점 기준 수사로 확인되지 않음)
+- 뉴스타파, [딥페이크의 공범들② 학교 딥페이크, 가해자가 돌아왔다](https://newstapa.org/article/74aqg) (2025.3.27, 교육부·경찰청 집계 인용)
 - 여성가족부 · 한국여성인권진흥원, [2024 디지털성범죄 피해자 지원 보고서](https://www.khan.co.kr/article/202504102017005) 관련 보도 (2025.4)
 - 성평등가족부, [지난해 디지털성범죄 피해자 1만 637명에게 35만여 건 원스톱 지원](https://www.mogef.go.kr/nw/enw/nw_enw_s001d.do?mid=mda700&bbtSn=713441) (2026.4), [관련 보도](https://m.sedaily.com/amparticle/20033388)
 - 뉴시스, ['딥페이크 성범죄' 1438명 검거…피의자 62%가 10대](https://www.newsis.com/view/NISX20251114_0003403877) (2025.11)
