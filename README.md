@@ -23,8 +23,7 @@
 <p>
 <a href="#how-it-works">작동 방식</a> ·
 <a href="#results">검증 결과</a> ·
-<a href="#getting-started">시작하기</a> ·
-<a href="Data/results/comparison.md">전체 리포트</a>
+<a href="#team">팀 소개</a>
 </p>
 
 </div>
@@ -120,25 +119,6 @@ LFW 데이터셋 100명에 보호를 적용한 뒤, SNS 업로드를 흉내 내 
 
 <br/>
 
-<h2 id="getting-started">Getting started</h2>
-
-```bash
-cd Code
-npm install
-npm run dev     # 첫 실행 시 모델(약 26MB)을 자동으로 내려받습니다
-npm run build   # dist/ → HTTPS 정적 호스팅에 올리면 휴대폰에 앱으로 설치됩니다
-```
-
-`main` 브랜치에 push하면 GitHub Actions가 GitHub Pages로 자동 배포합니다.
-
-```
-Code/           웹앱 (PWA)
-Evaluate/       LFW 기반 보호 효과 검증
-Data/results/   검증 리포트
-```
-
-<br/>
-
 ## Roadmap
 
 페이신은 계속 다듬어 가는 중입니다. 다음 단계로 이런 부분을 준비하고 있어요.
@@ -147,6 +127,33 @@ Data/results/   검증 리포트
 - **더 넓은 보호 범위** — 지금은 얼굴 스왑 도구가 주로 쓰는 ArcFace 계열에서 효과를 확인했고, 다른 인식 모델과 최신 이미지 편집 기술로 검증을 넓혀 갈 예정입니다.
 - **모바일 최적화** — 휴대폰에서도 빠르게 동작하도록 실제 기기에서 속도를 측정하고 다듬을 계획입니다.
 - **상용화 준비** — 현재 사용하는 InsightFace 모델은 연구용 라이선스라, 서비스 출시에 맞춰 상업적으로 쓸 수 있는 모델로 전환할 예정입니다.
+
+> 소스 코드와 검증 스크립트는 모바일 기기 테스트를 마친 뒤 공개할 예정입니다.
+
+<br/>
+
+<h2 id="team">Team <code>__init__</code></h2>
+
+> 파이썬의 `__init__`은 무언가가 처음 만들어질 때 가장 먼저 실행되어 기본값을 정합니다.<br/>
+> 저희는 안전이 처음부터 기본값인 세상을 만듭니다. **Safe by default.**
+
+| | 이름 | 역할 |
+|:---:|:---|:---|
+| 🧭 | **김혜현** HyeHyeon Kim | PM · CM · QA |
+| 🛠️ | **정가영** GaYeong Jeong | PL · ENG · QA |
+
+<br/>
+
+## Acknowledgments
+
+페이신은 아래 오픈소스와 연구 자료 위에서 만들어졌습니다.
+
+- [face-api](https://github.com/vladmandic/face-api) (MIT) — 얼굴 검출, 랜드마크, 얼굴 인식 모델
+- [TensorFlow.js](https://github.com/tensorflow/tfjs) (Apache-2.0) — 브라우저 안에서의 모델 실행과 보호 신호 계산
+- [InsightFace](https://github.com/deepinsight/insightface) — ArcFace 얼굴 인식 모델 (MobileFaceNet, R50, Glint360K R100). 모델은 비상업·연구용 라이선스를 따릅니다.
+- [ONNX Runtime](https://github.com/microsoft/onnxruntime) (MIT) — 검증용 모델 실행
+- [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) — 보호 효과 검증 데이터셋<br/>
+  <sub>G. B. Huang, M. Ramesh, T. Berg, E. Learned-Miller. *Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments.* UMass Amherst Tech. Report 07-49, 2007.</sub>
 
 <br/>
 
