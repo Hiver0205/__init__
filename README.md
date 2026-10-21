@@ -5,7 +5,7 @@
   <img src="logo.png" width="644" alt="FACCINE · Protected Beauty Camera" />
 </picture>
 
-<h3>보정할 때 함께 지켜지는 딥페이크 방지 카메라</h3>
+<h2>보정할 때 함께 지켜지는 딥페이크 방지 카메라</h2>
 
 
 <p>
