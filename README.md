@@ -1,8 +1,10 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo-dark.png" />
+  <img src="logo.png" width="644" alt="FACCINE · Protected Beauty Camera" />
+</picture>
 
-<img src="logo.png" width="96" alt="Faccine" />
+<br/><br/>
 
-<h1>Faccine</h1>
 
 <p><b>보정할 때 함께 지켜지는 딥페이크 방지 카메라</b></p>
 
