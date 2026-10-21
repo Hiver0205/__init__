@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Code/public/icons/icon-512.png" width="96" alt="Faccine" />
+<img src="logo.png" width="96" alt="Faccine" />
 
 <h1>Faccine</h1>
 
